@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Panier JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <div class="article" data-nom="Article 1" data-prix="19.99" data-quantite="0">
+  <h2>Article 1</h2>
+  <p>Prix : 19.99 €</p>
+  <button class="btn btn-success" data-action="plus">+</button>
+  <span class="count">0</span>
+  <button class="btn btn-warning" data-action="minus">-</button>
+  <button class="btn btn-danger" data-action="delete">Supprimer</button>
+</div>
+
+<div class="article" data-nom="Article 2" data-prix="12.49" data-quantite="0">
+  <h2>Article 2</h2>
+  <p>Prix : 12.49 €</p>
+  <button class="btn btn-success" data-action="plus">+</button>
+  <span class="count">0</span>
+  <button class="btn btn-warning" data-action="minus">-</button>
+  <button class="btn btn-danger" data-action="delete">Supprimer</button>
+</div>
+
+<div class="cart">
+  <h2>Panier</h2>
+  <div id="cart-items">
+  </div>
+  <div id="cart-total">
+  </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html
